@@ -4,35 +4,57 @@
 *********************************************
 ***********************************/
 body {
-
+  margin: 0 0;
 
 }
 
 *{
-  border: 1px solid black;
+
 }
 /******************** header ******************
 ***********************************************/
 
 header {
   background: #f56b2a;
+  border: 1px solid black;
+  display: flex;
+
 
 
 }
+.responsive {
+  display: flex;
+}
 
-.responsive-menu {
+a.responsive-menu {
+  width: 46px;
+  height: 28px;
+  margin: 10px;
+  padding: 7px 10px 0px;
+  text-align: center;
+  color: #f56b2a;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+a.logo {
+
+  border: 1px solid black;
+  position: absolute;
+  left: 45%;
 
 }
 
-.logo {
-
+.logo img {
+  width: 50px;
+  background: #f56b2a;
 }
 
 
 /*****navigation*****/
 
-nav {
-
+header nav {
+display: none;
 }
 
 header nav a {
@@ -52,7 +74,7 @@ header nav a {
 
 /****************section top ***************/
 section {
-
+  border: 1px solid black;
 }
 
 /*****contain  left side*****/
@@ -82,7 +104,7 @@ p span{
 }
 
 .side-news {
-
+  display: none;
 }
 
 .leboncoin {
@@ -117,7 +139,7 @@ map {
 /*department-list*/
 
 .department-list {
-
+display: none;
 }
 
 /*department-list*/
@@ -164,18 +186,22 @@ section h2 {
 ***********************************************************/
 
 
-header {
-
+footer {
+  border: 1px solid black;
 }
 
 /****** footer navs******/
 
 .footer-navs {
-
+  display: none;
 }
 
 .footer-nav {
 
+}
+
+.partners {
+  display: none;
 }
 
 /****** footer navs******/

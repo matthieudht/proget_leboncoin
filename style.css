@@ -305,4 +305,98 @@ footer {
 
 /***********************************************
 ***********************************************
-************* for little desktop*/
+************* for little desktop**************
+*********************************************
+************************************************/
+
+
+
+@media screen and (min-width: 980px) {
+
+  header {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .responsive {
+    width: 20%;
+  }
+
+
+  .responsive-menu {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    word-break: keep-all;
+    width:100%;
+    margin: auto;
+    font-size: 0.8em;
+  }
+  header nav a {
+    margin: auto 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'OpenSansSemiBold', sans-serif;
+  }
+}
+
+
+
+
+footer {
+  display: block;
+  background: #333;
+  color: #fff;
+}
+
+/****** footer navs******/
+
+.footer-navs {
+  display: flex;
+  font-size: 0.8rem;
+
+}
+
+.footer-nav li {
+  list-style: none;
+  list-style-position: inside;;
+}
+footer a {
+color: #f2f2f2;
+margin: auto 20px;
+}
+
+footer a:link {
+  text-decoration: none;
+}
+/****** footer navs******/
+
+
+/***** partner *****/
+.partners {
+  display: none;
+}
+
+/***** partner *****/
+
+/***** copyrigth ****/
+.hidden {
+  display: inline;
+}
+
+.copyright-social-network {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-social-network a {
+
+}
+
+.copyright-social-network img {
+  width: 40px;
+}
+/***** copyrigth ****/

@@ -38,6 +38,9 @@ header {
 }
 .responsive {
   display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
 }
 
 a.responsive-menu {
@@ -53,14 +56,18 @@ a.responsive-menu {
   font-weight: 600;
   font-family:"OpenSans" , sans-serif;
 }
+
 a.logo {
-  position: absolute;
-  left: 45%;
+
+
 
 }
 
 .logo img {
-  width: 50px;
+  margin-left: 20%;
+  padding-top: 5px;
+  width: 60%;
+  max-height: 60px;
   background: #f56b2a;
 }
 
@@ -95,7 +102,7 @@ section {
 
 /*****contain  left side*****/
 .left-side {
-
+  width: 100%;
 }
 
 .search-and-deposite {
@@ -109,7 +116,6 @@ section {
 
 .depot-annonce, .search-around {
   min-width: 75%;
-  border: 1px solid black;
   margin: 10px auto;
   padding: 10px;
   border-radius: 4px;
@@ -169,7 +175,6 @@ p span{
   width: 100%;
   height: 100%;
   border: 1px solid red;
-  margin: 10px;
 
 }
 
@@ -193,6 +198,7 @@ display: none;
   width: 100%;
   border: 1px solid blue;
   display: flex;
+  margin-top: 20px;
 
 }
 
@@ -220,9 +226,17 @@ option {
 
 /***************** section bottom ***************/
 
-section h2 {
-
+section.bottom {
+  font-family: 'OpenSans' , sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+  text-align: center;
 }
+section.bottom a {
+  color: #4183d7;
+}
+
+
 
 /*************** section bottom *************/
 

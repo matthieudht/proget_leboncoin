@@ -30,7 +30,6 @@ body {
 
 header {
   background: #f56b2a;
-  border: 1px solid black;
   display: flex;
 
 
@@ -95,7 +94,6 @@ header nav a {
 
 /****************section top ***************/
 section {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
 }
@@ -106,7 +104,6 @@ section {
 }
 
 .search-and-deposite {
-  border: 1px solid black;
   min-height: 150px;
   display: flex;
   flex-wrap: wrap;
@@ -141,7 +138,6 @@ section {
   font-size: 14px;
   font-style: normal;
   margin: 15px;
-  border: 1px solid black;
 }
 p span{
   color:  #f56b2a;
@@ -161,12 +157,17 @@ p span{
 /*****contain right side*****/
 
 .right-side {
-
+  border: 2px solid black;
+  display:flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 20px auto;
 }
 
 /*map */
 
 .map {
+width: 90%;
 
 }
 
@@ -174,8 +175,6 @@ p span{
   display: block;
   width: 100%;
   height: 100%;
-  border: 1px solid red;
-
 }
 
 map {
@@ -196,7 +195,6 @@ display: none;
 
 .roll-list {
   width: 100%;
-  border: 1px solid blue;
   display: flex;
   margin-top: 20px;
 
@@ -254,7 +252,8 @@ section.bottom a {
 
 
 footer {
-  border: 1px solid black;
+  background: #333;
+  color: #fff;
 }
 
 /****** footer navs******/
@@ -280,7 +279,22 @@ footer {
 /***** partner *****/
 
 /***** copyrigth ****/
+.hidden {
+  display: none;
+}
 
+.copyright-social-network {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-social-network a {
+
+}
+
+.copyright-social-network img {
+  width: 40px;
+}
 /***** copyrigth ****/
 
 /************************** footer ***********************

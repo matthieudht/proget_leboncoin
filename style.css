@@ -138,7 +138,7 @@ p span{
 
 .right-side {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;;
   width: 95%;
   margin: 20px auto;
 }
@@ -342,6 +342,15 @@ footer {
     font-family: 'OpenSansSemiBold', sans-serif;
   }
 
+  /***** list department *****/
+
+  .department-list, .department-list li {
+    display: block;
+    list-style: none;
+  }
+
+  /***** list department *****/
+
 
 
 
@@ -373,6 +382,7 @@ footer {
     text-decoration: none;
   }
   /****** footer navs******/
+
 
 
   /***** partner *****/
